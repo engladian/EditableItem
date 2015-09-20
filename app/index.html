@@ -1,0 +1,44 @@
+﻿<html>
+<head>
+    <title>Directives Project 3.1.5</title>
+    <!-- build:css ./_assets/combined.css -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <!-- endbuild-->
+</head>
+<body ng-app=eiApp>
+    <!--for bootstrap-->
+    <div class="container" style="min-height:100%; margin: auto;">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3" style="border: 2px solid black; padding: 20px;">
+                <div class="row">
+                    <div make-editable>
+                        <!--Attrbute set-->
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, quam eget cursus pellentesque, mauris felis tincidunt leo, sed venenatis nulla est convallis turpis.
+                        </p>
+                        <p>
+                            Sed id nisi euismod, scelerisque leo vel, mollis elit. Duis sit amet dolor aliquet, euismod urna vel, maximus nibh.
+                        </p>
+                        <p>
+                            Integer a faucibus turpis. Curabitur blandit velit sem, nec scelerisque mi tristique a. Aenean varius luctus dui sollicitudin euismod. Nulla blandit aliquam est at sagittis.
+                        </p>
+                        <p>
+                            Donec tincidunt pharetra ligula pretium pretium. Quisque rutrum libero nec convallis iaculis. In cursus mi eget lacus aliquam cursus.
+                        </p>
+                    </div>
+                    <div make-editable>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        Hello!!!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- build:js ./_assets/combined.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="./ei-app.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

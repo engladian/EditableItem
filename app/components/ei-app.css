@@ -1,0 +1,8 @@
+﻿html, body {
+    height: 70vh;
+    margin: 0;
+    padding:0;
+}
+.edit {
+    color: red;
+}
